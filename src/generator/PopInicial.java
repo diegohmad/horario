@@ -1,5 +1,6 @@
 package generator;
 
+import data.InicializadorDados;
 import java.awt.Desktop;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -13,12 +14,10 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Scanner;
 import java.util.TreeMap;
-
-import data.InicializadorDados;
 import models.Materia;
 import models.Professor;
 
-public class HorarioGenerator {
+public class PopInicial {
 
     private static final Random random = new Random();
     private static final Scanner scanner = new Scanner(System.in);
